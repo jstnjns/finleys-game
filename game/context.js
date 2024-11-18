@@ -4,9 +4,8 @@ const k = kaplay({
   global: false,
 
   background: [0, 0, 0],
-  width: 1920,
-  height: 1080,
-  letterbox: true,
+  width: window.innerWidth,
+  height: window.innerHeight,
   crisp: true,
 
   debug: true,
